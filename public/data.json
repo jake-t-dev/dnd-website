@@ -1,0 +1,15 @@
+{
+  "character": {
+    "name": "John Doe",
+    "class": "Wizard",
+    "level": 5,
+    "stats": {
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 18,
+      "wisdom": 16,
+      "charisma": 8
+    }
+  }
+}

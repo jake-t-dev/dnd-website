@@ -1,4 +1,4 @@
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react";
+import { Wand, ChartNoAxesGantt, Swords, Backpack, Scroll } from "lucide-react";
 
 import {
   Sidebar,
@@ -10,40 +10,44 @@ import {
 } from "@/components/ui/sidebar";
 import CharacterMenuItem from "./character-menu-item";
 
+export type CharacterSidebarProps = {
+  characterName?: string;
+};
+
 const items = [
   {
-    title: "Home",
+    title: "Overview",
     url: "#",
-    icon: Home,
+    icon: ChartNoAxesGantt,
   },
   {
-    title: "Inbox",
-    url: "#",
-    icon: Inbox,
+    title: "Actions",
+    url: "/actions",
+    icon: Swords,
   },
   {
-    title: "Calendar",
-    url: "#",
-    icon: Calendar,
+    title: "Spells & Abilities",
+    url: "/spells",
+    icon: Wand,
   },
   {
-    title: "Search",
-    url: "#",
-    icon: Search,
+    title: "Inventory",
+    url: "/inventory",
+    icon: Backpack,
   },
   {
-    title: "Settings",
-    url: "#",
-    icon: Settings,
+    title: "Details",
+    url: "/lore",
+    icon: Scroll,
   },
 ];
 
-const CharacterSidebar = () => {
+const CharacterSidebar = ({ characterName }: CharacterSidebarProps) => {
   return (
     <Sidebar>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Application</SidebarGroupLabel>
+          <SidebarGroupLabel>{characterName}</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
@@ -60,6 +64,6 @@ const CharacterSidebar = () => {
       </SidebarContent>
     </Sidebar>
   );
-}
+};
 
 export default CharacterSidebar;
