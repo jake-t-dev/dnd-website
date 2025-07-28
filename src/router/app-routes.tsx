@@ -1,4 +1,4 @@
-import Character from "@/pages/character/character";
+import Character from "@/pages/character/overview/character";
 import Layout from "@/pages/character/layout/layout";
 import Spells from "@/pages/character/spells/spells";
 import Landing from "@/pages/landing";
