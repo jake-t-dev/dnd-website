@@ -21,7 +21,7 @@ const CoreDetailsSection = ({
     <EditableContainer
       editContent={
         <Modal>
-          <CoreDetailsForm />
+          <CoreDetailsForm characterName={characterName} />
         </Modal>
       }
     >
