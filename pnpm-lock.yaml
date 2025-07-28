@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@fontsource/texturina':
+        specifier: ^5.2.6
+        version: 5.2.6
       '@radix-ui/react-dialog':
         specifier: ^1.1.14
         version: 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -391,6 +394,9 @@ packages:
 
   '@floating-ui/utils@0.2.10':
     resolution: {integrity: sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==}
+
+  '@fontsource/texturina@5.2.6':
+    resolution: {integrity: sha512-pFr6qOYcvfUuZZEAsrqMkxmagvdoVZtUT6VlWCpqKlHFN1fuSKHlscHcqmqwYOYNLPPSTuCatcA6EQOVmExeMg==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -2078,6 +2084,8 @@ snapshots:
       react-dom: 19.1.0(react@19.1.0)
 
   '@floating-ui/utils@0.2.10': {}
+
+  '@fontsource/texturina@5.2.6': {}
 
   '@humanfs/core@0.19.1': {}
 

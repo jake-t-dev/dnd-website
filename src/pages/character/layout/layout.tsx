@@ -20,9 +20,11 @@ const Layout = () => {
       {showJsonLoader && <JsonLoader />}
       <SidebarProvider>
         <CharacterSidebar characterName={characterName} />
-        <main>
+        <main className="flex flex-col h-screen flex-1 w-full">
           <SidebarTrigger />
-          <Outlet />
+          <div className="flex-1 w-full flex flex-col">
+            <Outlet />
+          </div>
         </main>
       </SidebarProvider>
     </>

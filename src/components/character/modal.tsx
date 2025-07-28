@@ -1,4 +1,4 @@
-import { Pencil } from "lucide-react";
+import { Feather } from "lucide-react";
 import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog";
 import { Button } from "../ui/button";
 
@@ -15,7 +15,7 @@ const Modal = ({ children }: ModalProps) => {
           className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity"
           tabIndex={-1}
         >
-          <Pencil />
+          <Feather />
         </Button>
       </DialogTrigger>
       <DialogContent>{children}</DialogContent>
