@@ -10,11 +10,11 @@ const AppRoutes = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="*" element={<PageNotFound />} />
         <Route path="/character" element={<Layout />}>
           <Route index element={<Character />} />
           <Route path="inventory" element={<Spells />} />
         </Route>
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
   );
