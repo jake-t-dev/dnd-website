@@ -7,7 +7,7 @@
     "strict": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
-    "typeRoots": ["./src/types", "./node_modules/@types"],
+    "typeRoots": ["./src/types/*", "./node_modules/@types"],
     "paths": {
       "@/*": ["./src/*"]
     },

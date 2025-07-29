@@ -1,0 +1,253 @@
+{
+  "uuid": "",
+  "name": "",
+  "alignment": "",
+  "xp": 0,
+  "playerName": "",
+  "race": {
+    "id": "",
+    "name": "",
+    "racialAbilities": [
+      {
+        "id": "",
+        "name": "",
+        "description": ""
+      }
+    ]
+  },
+  "classes": [
+    {
+      "id": "",
+      "name": "",
+      "level": 0,
+      "classAbilities": [
+        {
+          "id": "",
+          "name": "",
+          "description": ""
+        }
+      ],
+      "subclass": {
+        "id": "",
+        "name": "",
+        "subclassAbilities": [
+          {
+            "id": "",
+            "name": "",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "background": {
+    "id": "",
+    "name": "",
+    "backgroundFeatures": [
+      {
+        "id": "",
+        "name": "",
+        "description": ""
+      }
+    ],
+    "personalityTraits": [
+      {
+        "id": "",
+        "name": "",
+        "description": ""
+      }
+    ],
+    "ideals": [
+      {
+        "id": "",
+        "name": "",
+        "description": ""
+      }
+    ],
+    "bonds": [
+      {
+        "id": "",
+        "name": "",
+        "description": ""
+      }
+    ],
+    "flaws": [
+      {
+        "id": "",
+        "name": "",
+        "description": ""
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "",
+      "score": 0
+    }
+  ],
+  "primarySpellcastingAbility": "",
+  "armourClass": 0,
+  "maximumHealth": 0,
+  "initiativeBonus": 0,
+  "speeds": [
+    {
+      "distance": 0,
+      "type": ""
+    }
+  ],
+  "proficiencies": [
+    {
+      "name": "",
+      "modifier": 0
+    }
+  ],
+  "languages": [
+    {
+      "id": "",
+      "name": ""
+    }
+  ],
+  "equipment": {
+    "money": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    },
+    "weapons": [
+      {
+        "id": "",
+        "name": "",
+        "description": "",
+        "isMagical": false,
+        "bonusValue": 0,
+        "requiresProficiency": false,
+        "isProficient": false,
+        "range": "",
+        "category": "",
+        "type": "",
+        "damages": [
+          {
+            "id": "",
+            "dice": "",
+            "type": ""
+          }
+        ],
+        "properties": [
+          {
+            "id": "",
+            "name": ""
+          }
+        ],
+        "weight": 0,
+        "cost": 0,
+        "equipped": false
+      }
+    ],
+    "armour": [
+      {
+        "id": "",
+        "name": "",
+        "description": "",
+        "isMagical": false,
+        "bonusValue": 0,
+        "requiresProficiency": false,
+        "isProficient": false,
+        "category": "",
+        "requiredStrength": 0,
+        "stealthDisadvantage": false,
+        "weight": 0,
+        "cost": 0,
+        "equipped": false
+      }
+    ],
+    "tools": [
+      {
+        "id": "",
+        "name": "",
+        "description": "",
+        "isMagical": false,
+        "requiresProficiency": false,
+        "isProficient": false,
+        "category": "",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "",
+        "name": "",
+        "description": "",
+        "capacity": 0,
+        "type": "",
+        "cost": 0,
+        "weight": 0,
+        "speeds": [
+          {
+            "distance": 0,
+            "type": ""
+          }
+        ]
+      }
+    ],
+    "misc": [
+      {
+        "id": "",
+        "name": "",
+        "description": "",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1
+      }
+    ]
+  },
+  "spellSlots": [
+    {
+      "level": 1,
+      "quantity": 2
+    },
+    {
+      "level": 2,
+      "quantity": 0
+    }
+  ],
+  "spells": [
+    {
+      "id": "",
+      "name": "",
+      "description": "",
+      "higherLevelDescription": "",
+      "school": "",
+      "level": 0,
+      "castingTime": "",
+      "range": "",
+      "components": {
+        "verbal": false,
+        "somatic": false,
+        "material": false,
+        "materialComponents": ""
+      },
+      "duration": "",
+      "concentration": false,
+      "ritual": false,
+      "prepared": false,
+      "spellcastingAbility": "",
+      "associatedClassId": "",
+      "areaOfEffect": {
+        "type": "",
+        "size": 0
+      },
+      "damages": [
+        {
+          "id": "",
+          "dice": "",
+          "type": ""
+        }
+      ],
+      "saveType": ""
+    }
+  ]
+}
